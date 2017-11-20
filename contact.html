@@ -1,43 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Jack Kennedy Contact Info</title>
+	<title>Contact</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-	<header>
-		<div class="name header"> 
-			Jack Kennedy
+	<div class="wrapper">	
+		<header>
+			<div class="container-1">
+				<div class="my-name">
+					<h1>Jack Kennedy</h1>
+				</div>
+				<nav>
+					<ul> 
+						<li><a href="index.html">About</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div class="container-2">
+			<div class="container-3">
+				<section class="contact">
+					<h1>Contact</h1>
+					<p>Name</p>
+					<input type="text" name="Name" size="90" placeholder="John Smith">
+					<p>Email</p>
+					<input type="email" name="Email" size="90" placeholder="example@gmail.com">
+					<p>Message</p>
+					<textarea cols="88" rows="10"></textarea>
+					<button>Submit</button>
+				</section>
+			</div>
+			<div class="container-4">
+				<aside>
+					<h3>Connect with Me</h3>
+						<div class="container-5">
+							<ul>
+								<li>
+								<a href="https://github.com/puttums6790">
+									<img id="github-icon" src="assets/images/github.png" alt="github-icon" height="50">
+								</a>
+							</li>
+							<li>
+								<a href="https://linkedin.com/in/jack-kennedy-19aa4430">
+									<img id="linkedin-icon" src="assets/images/linkedin.png" alt="linkedin-icon" height="50">
+								</a>
+							</li>
+							<li>
+								<a href="https://stackoverflow.com/users/8863787/jack-kennedy">
+									<img id="stack-icon" src="assets/images/stackoverflow.png" alt="stack-overflow-icon" height="50">
+								</a>
+							</li>
+							</ul>
+						</div>
+				</aside>
+			</div>
 		</div>
-		<div class="portfolio links">
-		<a class="links" href="">About</a>
-		<a class="links" href="">Portfolio</a>	
-		<a class="links" href="">Contact</a>		
-		</div>
-	</header>
-	<h1>Contact</h1>
-	<h2>Send e-mail to someone@example.com:</h2>
-
-		<form action="mailto:someone@example.com" method="post" enctype="text/plain">
-		Name:<br>
-		<input type="text" name="name"><br>
-		E-mail:<br>
-		<input type="text" name="mail"><br>
-		Message:<br>
-		<input type="text" name="message" size="50"><br><br>
-		<input type="submit" value="Send">
-		<input type="reset" value="Reset">
-</form>
-	<p class="connect">
-		<div>
-		Connect with Me
-		<div>
-			<a class="links" href="https://github.com/puttums6790"><img border="0" alt="Github" src="https://image.flaticon.com/icons/svg/38/38401.svg" width= "100" height= "100"></a>
-			<a class="links" href="https://linkedin.com/in/jack-kennedy-19aa4430"><img border="0" alt="Linkedin" src="https://pbs.twimg.com/profile_images/614583061448036352/CBpFkPaz.png" width= "100" height= "100"></a>	
-			<a class="links" href="https://stackoverflow.com/users/8863787/jack-kennedy"><img border="0" alt="Stack" src="https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-icon.svg?v=6e4af45f4d66" width= "100" height= "100"></a>
-		</div>
-		</div>
-	</p>
-	
+		<div class="push"></div>
+	</div>
+	<div class="footer">
+		<div class="line"></div>
+		<p>&#169; Copyright 2017 Jack Kennedy</p>
+	</div>
 </body>
-<footer>Copyright 2017 Jack kennedy</footer>
 </html>
